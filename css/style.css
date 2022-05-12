@@ -6,3 +6,70 @@ h1 {
     color: purple;
     font-size: 24px;
 }
+
+.nav-bg {
+    background-color: #294C60;
+}
+
+.nav-link {
+    color:#FFEFD3;
+}
+
+.nav-link:after {
+    content: '|';
+    padding: 0 1rem;
+}
+
+.navbar-brand {
+    color: #ADB6C4;
+}
+
+.btn {
+    color:#294C60;
+    background-color:#FFC49B;
+}
+
+.header-items {
+    background-color:lightcoral;
+    height: 80px;
+    align-items: center;
+}
+
+.member-btns{
+    display: flex; /* adjusted */
+    flex: 1;
+    justify-content: flex-end;
+    max-width: 100%;
+    width: 100%;
+    padding-top: 20px;
+}
+
+footer {
+    background-color:#294C60;
+    color: #FFEFD3;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.footer-contaniner {
+    width: 100%;
+}
+
+.footer-title {
+    color: #ADB6C4;
+}
+
+.footer-links {
+    color:#FFC49B;
+}
+
+.copyright-text {
+    color: #FFC49B;
+}
+
+h6 {
+    color:#ADB6C4;
+}
+
